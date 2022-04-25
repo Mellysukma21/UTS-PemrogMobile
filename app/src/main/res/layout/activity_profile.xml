@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FDF6E4"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama : Melly Febrianty Sukma"
+        android:background="#FDF5E4"
+        android:textColor="#1C1C1E"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 191103571"
+        android:background="#F9E6CE"
+        android:textColor="#1C1C1E"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="20dp" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username : "
+        android:background="#EED4A1"
+        android:textColor="#1C1C1E"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat : Jl. Masjid Jami, Bengkayang"
+        android:background="#FFDA6E"
+        android:textColor="#1C1C1E"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="20dp" />
+
+    <ImageView
+    android:id="@+id/image_1"
+    android:layout_width="262dp"
+    android:layout_height="264dp"
+    android:layout_gravity="center"
+    android:scaleType="fitCenter"
+    android:src="@drawable/melly"
+    tools:layout_editor_absoluteX="11dp"
+    tools:layout_editor_absoluteY="64dp" />
+
+
+</LinearLayout>
